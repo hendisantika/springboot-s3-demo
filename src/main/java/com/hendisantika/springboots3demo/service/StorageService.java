@@ -53,4 +53,10 @@ public class StorageService {
         return null;
     }
 
+    public String deleteFile(String fileName) {
+        s3Client.deleteObject(bucketName, fileName);
+        return fileName + " removed ...";
+    }
+
+
 }
