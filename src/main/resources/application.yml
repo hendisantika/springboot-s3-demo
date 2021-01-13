@@ -4,13 +4,13 @@ cloud:
       access-key: ACCESS-KEY
       secret-key: SECRET-KEY
     region:
-      static: ap-east-1
+      static: ap-southeast-1
     stack:
       auto: false
 
 application:
   bucket:
-    name: springboot-s3
+    name: springboot-s3-demo1
 
 
 spring:
