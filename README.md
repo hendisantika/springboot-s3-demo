@@ -7,3 +7,4 @@
 3. Set Your AWS KEY & AWS SECRET in application.yml file
 4. Run the application: `mvn clean spring-boot:run`
 5. Open POSTMAN Application
+
